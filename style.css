@@ -1,0 +1,29 @@
+body {
+    padding : 50px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+td,th {
+  text-align: center;
+}
+
+.entete{
+  text-align: left;
+}
+
+ .card-hover:hover {
+        border-color: #007bff; /* Couleur de fond bg-primary */
+        padding-bottom: 20px; 
+        transition: all 0.3s ease; /* Douce transition pour les effets */
+        border-width: 2px;
+    }
+
+    .card-hover:hover .card-header {
+        background-color: #007bff; /* Couleur de fond bleu primaire pour le header */
+        color: white;
+    }
